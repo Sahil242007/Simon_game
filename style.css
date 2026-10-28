@@ -1,0 +1,43 @@
+*{
+    border: 0;
+    padding: 0;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    text-align: center;
+    height: 8rem;
+    width: 8rem;
+    border: 7px solid black ;
+    border-radius: 25px;
+    margin: 15px;
+}
+
+.green{
+    background-color: rgb(72, 177, 191);
+}
+
+.red{
+    background-color: rgb(255, 0, 106);
+}
+
+.yellow{
+    background-color:orange
+}
+
+.purple{
+    background-color: rgb(123, 99, 188);
+}
+
+.flash{
+    background-color: white;
+}
